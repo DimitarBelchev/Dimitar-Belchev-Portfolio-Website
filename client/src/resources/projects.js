@@ -13,7 +13,7 @@ export const projects =
     technologies: [],
 
     title: "SHEYSHOP",
-    image: "https://sheysathya2.netlify.app/ecommerce.svg",
+    image: "https://shey2.netlify.app/ecommerce.svg",
     description:
       "An ecommerce application developed using react , node , redux and mongodb",
     link: "/",
