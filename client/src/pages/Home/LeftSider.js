@@ -7,19 +7,19 @@ function LeftSider() {
         <div className="flex flex-col gap-3 sm:flex-row">
           <a href="https://www.facebook.com/Belchev98/">
             {" "}
-            <i class="ri-facebook-circle-line text-gray-400"></i>
+            <i className="ri-facebook-circle-line text-gray-400"></i>
           </a>
           <a href="mailto: dimitarbelchev98@gmail.com">
             {" "}
-            <i class="ri-mail-line text-gray-400 "></i>
+            <i className="ri-mail-line text-gray-400 "></i>
           </a>
           <a href="https://www.linkedin.com/in/dimitar-belchev-3a3b7418a/">
             {" "}
-            <i class="ri-linkedin-box-line text-gray-400 "></i>
+            <i className="ri-linkedin-box-line text-gray-400 "></i>
           </a>
           <a href="https://github.com/DimitarBelchev">
             {" "}
-            <i class="ri-github-line text-gray-400 "></i>
+            <i className="ri-github-line text-gray-400 "></i>
           </a>
 
         </div>

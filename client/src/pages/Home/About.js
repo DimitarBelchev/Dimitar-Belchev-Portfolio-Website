@@ -12,12 +12,7 @@ function About() {
 
       <div className="flex w-full items-center sm:flex-col">
         <div className="h-[70vh] w-1/2 sm:w-full">
-          <lottie-player
-            src={lottieURL}
-            background="transparent"
-            speed="1"
-            autoplay
-          ></lottie-player>
+          <lottie-player src={lottieURL}  background="transparent"  speed="1"   loop controls autoplay></lottie-player>
         </div>
         <div className="flex flex-col gap-5 w-1/2 sm:w-full">
           <p className="text-white">{description1 || ""}</p>
