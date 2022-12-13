@@ -47,10 +47,7 @@ function Projects() {
               {projects[selectedItemIndex].description}
             </p>
             <p className="text-white">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-              expedita accusantium nulla ad odio quisquam consequuntur
-              laudantium saepe ratione consectetur optio necessitatibus ut,
-              impedit ducimus corrupti ullam veniam error non.
+
             </p>
           </div>
         </div>

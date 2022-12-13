@@ -41,10 +41,7 @@ function Experiences() {
             {experiences[selectedItemIndex].company}
           </h1>
           <p className="text-white">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-            expedita accusantium nulla ad odio quisquam consequuntur laudantium
-            saepe ratione consectetur optio necessitatibus ut, impedit ducimus
-            corrupti ullam veniam error non.
+          {experiences[selectedItemIndex].description}
           </p>
         </div>
       </div>
