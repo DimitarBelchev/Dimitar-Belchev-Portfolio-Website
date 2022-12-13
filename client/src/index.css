@@ -39,11 +39,11 @@ i:hover{
 
 /* loader animation */
 
-.k{
-  animation: k 1s infinite;
+.d{
+  animation: d 1s infinite;
 }
 
-@keyframes k{
+@keyframes d{
   0%{
       opacity: 1;
   }
@@ -56,11 +56,11 @@ i:hover{
 }
 
 
-.s{
-  animation: s 1s infinite;
+.b{
+  animation: b 1s infinite;
 }
 
-@keyframes s{
+@keyframes b{
   0%{
       opacity: 0.5;
   }
@@ -73,11 +73,11 @@ i:hover{
 }
 
 
-.r{
-  animation: r 1s infinite;
+.be{
+  animation: be 1s infinite;
 }
 
-@keyframes r{
+@keyframes be{
   0%{
       opacity: 0.5;
   }
