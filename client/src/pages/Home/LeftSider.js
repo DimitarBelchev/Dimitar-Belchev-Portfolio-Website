@@ -11,7 +11,6 @@ function LeftSider() {
           </a>
 
           <i class="ri-mail-line text-gray-400 "></i>
-          <i class="ri-instagram-line text-gray-400 "></i>
           <i class="ri-linkedin-box-line text-gray-400 "></i>
           <i class="ri-github-line text-gray-400 "></i>
         </div>
