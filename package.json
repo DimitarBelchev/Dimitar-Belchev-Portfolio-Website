@@ -4,8 +4,9 @@
   "description": "A portfolio website built with React 18, Tailwind CSS, MongoDB and NodeJS.",
   "main": "index.js",
   "engines": {
-    "node":"16.15.1",
-    "npm":"8.19.2"},
+    "node": "16.15.1",
+    "npm": "8.19.2"
+  },
   "scripts": {
     "client-install": "npm install --prefix client",
     "server": "nodemon server.js",
@@ -25,10 +26,12 @@
   },
   "homepage": "https://github.com/DimitarBelchev/Dimitar-Belchev-Portfolio-Website#readme",
   "dependencies": {
-    "concurrently": "^7.6.0",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "mongoose": "^6.8.0",
+    "mongoose": "^6.8.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0",
     "nodemon": "^2.0.20"
   }
 }
