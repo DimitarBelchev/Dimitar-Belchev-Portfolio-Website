@@ -19,10 +19,10 @@ const rootSlice = createSlice({
     },
     ReloadData: (state, action) => {
       state.reloadData = action.payload;
-    }
+    },
   },
 });
 
 export default rootSlice.reducer;
-export const { ShowLoading, HideLoading, SetPortfolioData , ReloadData} =
+export const { ShowLoading, HideLoading, SetPortfolioData, ReloadData } =
   rootSlice.actions;
