@@ -14,9 +14,9 @@ function Intro() {
       <h1 className="text-7xl sm:text-3xl text-white font-semibold">
         {caption || ""}
       </h1>
-      <p className="text-white w-2/3">{description || ""}s</p>
+      <p className="text-white w-2/3">{description || ""}</p>
       <button className="border-2 border-tertiary text-tertiary px-10 py-3 rounded">
-        Get Started
+        <a href="https://github.com/DimitarBelchev">My Github</a>
       </button>
     </div>
   );
