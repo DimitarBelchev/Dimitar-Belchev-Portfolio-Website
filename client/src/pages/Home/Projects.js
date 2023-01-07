@@ -14,6 +14,7 @@ function Projects() {
         <div className="flex flex-col gap-10 border-l-2 border-[#135e4c82] w-1/3 sm:flex-row sm:overflow-x-scroll sm:w-full">
           {projects.map((project, index) => (
             <div
+              key={Math.random()}
               onClick={() => {
                 setSelectedItemIndex(index);
               }}
@@ -40,15 +41,15 @@ function Projects() {
             className="h-60 w-72"
           />
           <div className="flex flex-col gap-5">
-            <h1 className="text-secondary text-xl">
-              {projects[selectedItemIndex].title}
-            </h1>
+            <a href={projects[selectedItemIndex].link}>
+              <h1 className="text-secondary text-xl">
+                Click here to open {projects[selectedItemIndex].title}
+              </h1>
+            </a>
             <p className="text-white">
               {projects[selectedItemIndex].description}
             </p>
-            <p className="text-white">
-
-            </p>
+            <p className="text-white"></p>
           </div>
         </div>
       </div>

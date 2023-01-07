@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 import SectionTitle from "../../components/SectionTitle";
 
 function Experiences() {
-  const [selectedItemIndex , setSelectedItemIndex] = React.useState(0);
+  const [selectedItemIndex, setSelectedItemIndex] = React.useState(0);
   const { portfolioData } = useSelector((state) => state.root);
   const { experiences } = portfolioData;
   return (
@@ -12,8 +12,9 @@ function Experiences() {
 
       <div className="flex py-10 gap-20 sm:flex-col">
         <div className="flex flex-col gap-10 border-l-2 border-[#135e4c82] w-1/3 sm:flex-row sm:overflow-x-scroll sm:w-full">
-          {experiences.map((experience, index) => (
+          {experiences.map((experience, index, i) => (
             <div
+              key={i}
               onClick={() => {
                 setSelectedItemIndex(index);
               }}
@@ -41,7 +42,7 @@ function Experiences() {
             {experiences[selectedItemIndex].company}
           </h1>
           <p className="text-white">
-          {experiences[selectedItemIndex].description}
+            {experiences[selectedItemIndex].description}
           </p>
         </div>
       </div>

@@ -39,22 +39,22 @@ function Admin() {
       {portfolioData && (
         <div className="px-5 pb-10">
           <Tabs defaultActiveKey="1">
-            <TabPane tab="Intro" key="1">
+            <TabPane tab="Intro">
               <AdminIntro />
             </TabPane>
-            <TabPane tab="About" key="2">
+            <TabPane tab="About">
               <AdminAbout />
             </TabPane>
-            <TabPane tab="Experiences" key="3">
+            <TabPane tab="Experiences">
               <Experiences />
             </TabPane>
-            <TabPane tab="Projects" key="4">
+            <TabPane tab="Projects">
               <AdminProjects />
             </TabPane>
-            <TabPane tab="Courses" key="5">
+            <TabPane tab="Courses">
               <AdminCourses />
             </TabPane>
-            <TabPane tab="Contact" key="6">
+            <TabPane tab="Contact">
               <AdminContact />
             </TabPane>
           </Tabs>
